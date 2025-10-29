@@ -1,0 +1,82 @@
+*{
+    margin: 0; //remove espaçamento externo padrão
+    padding: 0; //remove o preenchimento padrão
+    box-sizing: border-box; //respeita as medidas que eu especificar.
+}
+
+header{
+    background-color: #66BB6A;
+    height: 20vh; //altura 
+    color: #ffffff;
+    //padding-left: 50px;//espaçamento interno podendo ser TOP - RIGTH - BOTTOM ou LEFT
+
+        
+    //margin move todo elemento e é controlado por margin seguido de TOP RIGTH BOTOM ou LEFT
+
+
+
+    //********esses códigos tem uma forma mais antiga de executar os marcações e é mais usado para manutenção e resolução de problemas.
+h2{
+    display: block;
+    display: inline;
+    // display: block;//ocupa toda a linha horizontal passando da escrita "verde Ação"
+    // display: inline;//ocupa somente o espaço do elemento ou seja vai criar uma caixa encima do "verde ação" só encima das letras
+    display: inline-block;//deixa na mesma linha e permite o controle de larguras e alturas
+    width: 40%;//largura da caixa
+    padding-left: 160px;
+    margin-top: 40px;
+}
+
+
+    nav{
+        display: inline;
+        display: block;
+        display: inline-block;
+        width: 40%;
+        text-align: end;
+}
+
+    a {
+        margin-left: 40px;
+        font-size: larger;
+        color:#ffffff;
+
+}
+
+
+}
+.background {
+    background-image: url(./assets/background.png);//url 
+    background-repeat: no-repeat;//não repete a imagem
+    background-size: cover; //cobre todo o espaçõ
+    height: 70vh;//configuração altura imagem 
+    color: aliceblue; //cor do texto
+    text-align: center; //centralização do texto
+    padding-top: 180px;
+
+ }
+
+    h1{
+        font-size: 5rem;
+        margin-bottom: 20px; ///expaçamento do h1 com o P
+        font-family:"Sansita Swashed", system-ui;
+    }
+
+    p{
+        font-size: 2rem;//tamanho da fonte
+        width: 50%;
+        margin-bottom: 20px; //alinhamento do botão
+        margin-left: 350px;   //alinhamento do paragrafo
+    }
+
+
+    button{
+        background-color: #00b309;
+        color: #ffffff;
+        border: none; //tira a pequena borda do botão
+        padding: 15px 30px; //espaçamento interno da caixa
+        border-radius: 30px;//arredonda a caixa
+
+    }      
+
+    

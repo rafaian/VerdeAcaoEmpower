@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #66BB6A;
+  height: 20vh;
+  color: #ffffff;
+}
+header h2 {
+  display: block;
+  display: inline;
+  display: inline-block;
+  width: 40%;
+  padding-left: 160px;
+  margin-top: 40px;
+}
+header nav {
+  display: inline;
+  display: block;
+  display: inline-block;
+  width: 40%;
+  text-align: end;
+}
+header a {
+  margin-left: 40px;
+  font-size: larger;
+  color: #ffffff;
+}
+
+.background {
+  background-image: url(./assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 180px;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+  font-family: "Sansita Swashed", system-ui;
+}
+
+p {
+  font-size: 2rem;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-left: 350px;
+}
+
+button {
+  background-color: #00b309;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+}/*# sourceMappingURL=style.css.map */
