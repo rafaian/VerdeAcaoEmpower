@@ -1,82 +1,190 @@
-*{
-    margin: 0; //remove espaçamento externo padrão
-    padding: 0; //remove o preenchimento padrão
-    box-sizing: border-box; //respeita as medidas que eu especificar.
+* {
+  margin: 0; //remove espaçamento externo padrão
+  padding: 0; //remove o preenchimento padrão
+  box-sizing: border-box; //respeita as medidas que eu especificar.
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    background-color: #66BB6A;
-    height: 20vh; //altura 
-    color: #ffffff;
-    //padding-left: 50px;//espaçamento interno podendo ser TOP - RIGTH - BOTTOM ou LEFT
+body {
+  background: #f1f7ef;
+}
 
-        
-    //margin move todo elemento e é controlado por margin seguido de TOP RIGTH BOTOM ou LEFT
+// ===========header==============
 
+header {
+  background-color: #66bb6a;
+  height: 10vh; //altura
+  color: #ffffff;
+  //padding-left: 50px;//espaçamento interno podendo ser TOP - RIGTH - BOTTOM ou LEFT
 
+  //margin move todo elemento e é controlado por margin seguido de TOP RIGTH BOTOM ou LEFT
 
-    //********esses códigos tem uma forma mais antiga de executar os marcações e é mais usado para manutenção e resolução de problemas.
-h2{
+  //********esses códigos tem uma forma mais antiga de executar os marcações e é mais usado para manutenção e resolução de problemas.
+  h2 {
     display: block;
     display: inline;
+    font-family: "Sansita Swashed", system-ui;
     // display: block;//ocupa toda a linha horizontal passando da escrita "verde Ação"
     // display: inline;//ocupa somente o espaço do elemento ou seja vai criar uma caixa encima do "verde ação" só encima das letras
-    display: inline-block;//deixa na mesma linha e permite o controle de larguras e alturas
-    width: 40%;//largura da caixa
+    display: inline-block; //deixa na mesma linha e permite o controle de larguras e alturas
+    width: 40%; //largura da caixa
     padding-left: 160px;
-    margin-top: 40px;
-}
+    margin-top: 20px;
+  }
 
+  nav {
+    display: inline;
+    display: block;
+    display: inline-block;
+    width: 40%;
+    text-align: end;
+    text-decoration: none;
+  }
 
-    nav{
-        display: inline;
-        display: block;
-        display: inline-block;
-        width: 40%;
-        text-align: end;
-}
-
-    a {
-        margin-left: 40px;
-        font-size: larger;
-        color:#ffffff;
-
-}
-
-
+  a {
+    margin-left: 40px;
+    font-size: larger;
+    color: #ffffff;
+  }
 }
 .background {
-    background-image: url(./assets/background.png);//url 
-    background-repeat: no-repeat;//não repete a imagem
-    background-size: cover; //cobre todo o espaçõ
-    height: 70vh;//configuração altura imagem 
-    color: aliceblue; //cor do texto
-    text-align: center; //centralização do texto
-    padding-top: 180px;
+  background-image: url(./assets/background.png); //url
+  background-repeat: no-repeat; //não repete a imagem
+  background-size: cover; //cobre todo o espaçõ
+  height: 60vh; //configuração altura imagem
+  color: aliceblue; //cor do texto
+  text-align: center; //centralização do texto
+  padding-top: 100px;
+}
 
- }
+h1 {
+  font-size: 5rem;
+  margin-bottom: 20px; ///expaçamento do h1 com o P
+  font-family: "Sansita Swashed", system-ui;
+}
 
-    h1{
-        font-size: 5rem;
-        margin-bottom: 20px; ///expaçamento do h1 com o P
-        font-family:"Sansita Swashed", system-ui;
-    }
+.paragrafo1 {
+  font-size: 1rem; //tamanho da fonte
+  width: 50%;
+  margin-bottom: 20px; //alinhamento do botão
+  margin-left: 350px; //alinhamento do paragrafo
+  font-family: "Roboto", system-ui;
+}
 
-    p{
-        font-size: 2rem;//tamanho da fonte
-        width: 50%;
-        margin-bottom: 20px; //alinhamento do botão
-        margin-left: 350px;   //alinhamento do paragrafo
-    }
+.botaovoluntario {
+  background-color: #66bb6a;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto", system-ui;
+}
 
+.container {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
-    button{
-        background-color: #00b309;
-        color: #ffffff;
-        border: none; //tira a pequena borda do botão
-        padding: 15px 30px; //espaçamento interno da caixa
-        border-radius: 30px;//arredonda a caixa
+.item {
+  width: 230px;
+  background: white;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 15px;
+}
+.item img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
 
-    }      
+.item h3 {
+  margin-top: 10px;
+}
 
-    
+.item p {
+  font-size: 13px;
+  margin: 10px;
+  color: #333;
+  font-family: "Roboto", system-ui;
+}
+
+.item button {
+  background: #5cbf66;
+  padding: 8px 20px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  font-family: "Roboto", system-ui;
+}
+
+.cadastro {
+  background: #e8f5e4;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cadastro h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.cadastro p {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 450px;
+  margin: auto;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+}
+
+input,select {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  margin-top: 5px;
+  border-radius: 20px;
+  background: white;
+}
+
+.btncadastrar {
+  background-color: #66bb6a;
+  width: 100%;
+  max-width: 480px;
+  margin: 24px auto 0;
+  padding: 14px 20px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  font-family: "Roboto", system-ui;
+}
+
+// ========== Roda pé ============
+footer {
+  border: solid red;
+  background-color: #66bb6a;
+  height: 10vh; //altura
+  color: #ffffff;
+  font-family: "Roboto", system-ui;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 34px;
+  width: 100%;         
+
+}

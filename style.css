@@ -2,20 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f1f7ef;
 }
 
 header {
-  background-color: #66BB6A;
-  height: 20vh;
+  background-color: #66bb6a;
+  height: 10vh;
   color: #ffffff;
 }
 header h2 {
   display: block;
   display: inline;
+  font-family: "Sansita Swashed", system-ui;
   display: inline-block;
   width: 40%;
   padding-left: 160px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 header nav {
   display: inline;
@@ -23,6 +29,7 @@ header nav {
   display: inline-block;
   width: 40%;
   text-align: end;
+  text-decoration: none;
 }
 header a {
   margin-left: 40px;
@@ -34,10 +41,10 @@ header a {
   background-image: url(./assets/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 60vh;
   color: aliceblue;
   text-align: center;
-  padding-top: 180px;
+  padding-top: 100px;
 }
 
 h1 {
@@ -46,17 +53,127 @@ h1 {
   font-family: "Sansita Swashed", system-ui;
 }
 
-p {
-  font-size: 2rem;
+.paragrafo1 {
+  font-size: 1rem;
   width: 50%;
   margin-bottom: 20px;
   margin-left: 350px;
+  font-family: "Roboto", system-ui;
 }
 
-button {
-  background-color: #00b309;
-  color: #ffffff;
+.botaovoluntario {
+  background-color: #66bb6a;
   border: none;
-  padding: 15px 30px;
+  padding: 12px 30px;
   border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto", system-ui;
+}
+
+.container {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 230px;
+  background: white;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 15px;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.item h3 {
+  margin-top: 10px;
+}
+
+.item p {
+  font-size: 13px;
+  margin: 10px;
+  color: #333;
+  font-family: "Roboto", system-ui;
+}
+
+.item button {
+  background: #5cbf66;
+  padding: 8px 20px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  font-family: "Roboto", system-ui;
+}
+
+.cadastro {
+  background: #e8f5e4;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cadastro h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.cadastro p {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 450px;
+  margin: auto;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  margin-top: 5px;
+  border-radius: 20px;
+  background: white;
+}
+
+.btncadastrar {
+  background-color: #66bb6a;
+  width: 100%;
+  max-width: 480px;
+  margin: 24px auto 0;
+  padding: 14px 20px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  font-family: "Roboto", system-ui;
+}
+
+footer {
+  border: solid red;
+  background-color: #66bb6a;
+  height: 10vh;
+  color: #ffffff;
+  font-family: "Roboto", system-ui;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 34px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

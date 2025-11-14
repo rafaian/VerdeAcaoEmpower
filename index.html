@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <h2>Verde Ação</h2>
@@ -20,9 +22,86 @@
     <main>
         <section class="background">
             <h1>Verde Ação</h1>
-            <p>Se voluntário na Verde Ação é plantar esperança e colher transformação. Juntos, cuidamos do planeta e inspiramos mudanças reais!</p>
-            <button>Quero ser voluntário</button>
+            <p class="paragrafo1">Se voluntário na Verde Ação é plantar esperança e colher transformação. Juntos,
+                cuidamos do planeta e inspiramos mudanças reais!</p>
+            <button class="botaovoluntario">Quero ser voluntário</button>
         </section>
-    </main>    
+
+<!-- ==========sessão cards========== -->
+        <section class="container">
+            <div class="item">
+                <img src="./assets/girassol.png" alt="imagem de girasol">
+                <h3>Plantio de mudas</h3>
+                <p>Cada muda plantada ajuda a restaurar o meio ambiente</p>
+                <button class="btnvermais1">Ver mais</button>
+            </div>
+
+            <div class="item">
+                <img src="./assets/criancas.png" alt="imagem crianças segurando cartolina com simbolos relacionado a reciclagem">
+                <h3>Educação Ambiental</h3>
+                <p>Promove oficinas e rodas de conversas</p>
+                <button class="btnvermais2">Ver mais</button>
+            </div>
+            
+            <div class="item">
+                <img src="./assets/florestas.png" alt="imagem de pinheiros">
+                <h3>Cuidados</h3>
+                <p>Ajude a manter areas preservadas</p>
+                <button class="btnvermais3">Ver mais</button>
+            </div>
+
+            <div class="item">
+                <img src="./assets/plantacao.png" alt="imagem de mãos plantando">
+                <h3>Mapeamento</h3>
+                <p>Indentifique areas que precisam de mapeamento</p>
+                <button class="botaovermais4">Ver mais</button>
+            </div>
+
+<!-- ===========FOrmulario============= -->
+        <section class="cadastro" id="cadastro">
+            <h2>Cadastre-se como voluntário</h2>
+            <p>Faça parte de ações que transformam o mundo.  
+                Com pequenas atitudes, você pode gerar grandes impactos na natureza e na comunidade.
+            </p>
+
+            <form>
+                <label>Nome:</label>
+                <input type="text" placeholder="Nome">
+
+                <label>E-mail:</label>
+                <input type="email" placeholder="E-mail">
+
+                <label>Cidade:</label>
+                <input type="text" placeholder="Cidade">
+
+                <label>Atividade:</label>
+                <select>
+                    <option>Selecione atividade</option>
+                </select>
+
+                <button class="btncadastrar">Cadastrar</button>
+            </form>
+        </section>
+
+
+        <!-- RODAPÉ -->
+        <footer>
+            © todos os direitos reservados
+        </footer>
+
 </body>
+</html>
+
+
+
+
+
+        <!-- <form action=""></form>
+            <legend>Cadastre-se como voluntário</legend>
+            <label for="name">Nome:</label>
+            <p>Faça parte de ações que transformam o mundo. Com pequenas atitudes, você pode gerar grandes impactos na natureza e na comunidade</p> -->
+
+    </main>
+</body>
+
 </html>
